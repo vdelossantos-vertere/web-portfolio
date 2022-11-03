@@ -1,0 +1,17 @@
+main {
+  height: 100vh;
+}
+
+.main-section {
+  height: 100%;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.user-profile {
+  margin-left: 8px;
+}
