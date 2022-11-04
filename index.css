@@ -19,3 +19,15 @@ main > section {
 .card {
   width: 18rem;
 }
+
+.invisible-box {
+  height: 56px;
+}
+
+#projects {
+  padding-top: 56px;
+}
+
+#user-profile {
+  width: 50%;
+}
