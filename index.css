@@ -31,3 +31,13 @@ main > section {
 #user-profile {
   width: 50%;
 }
+
+@media (min-width: 810px) and (min-height: 1080px) {
+  #user-profile {
+    width: 75%;
+  }
+
+  main > section {
+    height: 0px !important;
+  }
+}
