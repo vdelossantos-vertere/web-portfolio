@@ -1,20 +1,17 @@
-nav,
 footer {
-  height: 10vh;
-  max-height: 56px;
+  padding: 1rem 0;
 }
 
 main > section {
   height: 100vh;
 }
 
-.section-double {
-  height: 10vh;
-  max-height: 56px;
-}
-
 .profile-image {
   border-radius: 50%;
   height: 15rem;
   width: 15rem;
+}
+
+.card {
+  width: 18rem;
 }

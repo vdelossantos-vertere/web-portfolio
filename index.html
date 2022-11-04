@@ -13,26 +13,34 @@
 </head>
 
 <body id="home">
-  <nav class="navbar fixed-top navbar-expand bg-light">
+  <nav class="navbar fixed-top navbar-expand-sm bg-light">
     <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mx-auto">
-          <a class="nav-link" href="#mavis">Mavis</a>
-          <a class="nav-link" href="#projects">Projects</a>
-          <a class="nav-link" href="#tools">Tools</a>
-        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#mavis">Mavis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tools">Tools</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
 
   <main id="main" class="d-flex flex-column justify-content-center align-items-center">
-    <section id="mavis" class="section-double"></section>
-    <section>
-      <div>
+    <section id="mavis" class="d-flex justify-content-center align-items-center">
+      <div class="gap-4 d-flex flex-column justify-content-center align-items-center d-md-flex flex-md-row">
         <img class="profile-image" src="public/images/mavis.jpg" alt="Mavis Vermillion">
-        <div>
+        <div class="d-flex flex-column align-items-center">
           <h3>Mavis Vermillion</h5>
-            <p>
+            <p class="text-justify">
               Hi I'm Mavis. I am a frontend developer with knowledge in react, html, css and javascript.
               I am also experienced in backend technologies such as node, express, and mongodb. If you are
               looking for an experienced and fun developer you can count me in.
@@ -41,11 +49,40 @@
       </div>
     </section>
 
-    <section id="projects" class="section-double"></section>
-    <section class="">asdf</section>
+    <section id="projects" class="d-flex justify-content-center align-items-center">
+      <div class="d-flex flex-column">
+        <h2 class="text-center mb-3">My Projects</h2>
+        <div class="d-flex gap-4 flex-md-row flex-column">
+          <div class="card">
+            <img class="card-img-top p-5" src="public/images/hello-world.png" alt="">
+            <div class="card-body">
+              <p class="card-text">This is my hello-world project. A fantastic project made with advanced and exciting
+                technologies!</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top p-5" src="public/images/hello-world.png" alt="">
+            <div class="card-body">
+              <p class="card-text">This is my second hello-world project. Another fantastic project!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section id="tools" class="section-double"></section>
-    <section class="">asdf</section>
+    <section id="tools" class="d-flex justify-content-center align-items-center">
+      <div class="d-flex flex-column">
+        <h2 class="text-center">My Programming Tools</h2>
+        <div class="d-flex gap-4 flex-md-row flex-column">
+          <img src="public/images/html.png" alt="HTML">
+          <img src="public/images/css3.png" alt="CSS3">
+          <img src="public/images/javascript.png" alt="JavaScript">
+          <img src="public/images/nodejs.png" alt="NodeJS">
+          <img src="public/images/express.png" alt="ExpressJS">
+          <img src="public/images/mongodb.png" alt="MongoDB">
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer fixed-bottom bg-light d-flex justify-content-center align-items-center">
