@@ -32,6 +32,18 @@ main > section {
   width: 50%;
 }
 
+#contact {
+  width: 50%;
+}
+
+textarea {
+  resize: none;
+}
+
+#message-submit-btn {
+  width: 100%s;
+}
+
 @media (min-width: 810px) and (min-height: 1080px) {
   #user-profile {
     width: 75%;
