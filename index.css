@@ -1,9 +1,13 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 footer {
   padding: 1rem 0;
 }
 
 main > section {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .profile-image {
