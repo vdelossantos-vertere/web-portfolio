@@ -41,7 +41,7 @@ textarea {
 }
 
 #message-submit-btn {
-  width: 100%s;
+  width: 100%;
 }
 
 @media (min-width: 810px) and (min-height: 1080px) {
